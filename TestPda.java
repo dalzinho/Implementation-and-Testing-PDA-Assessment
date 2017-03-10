@@ -29,12 +29,12 @@ public class TestPda{
 
   @Test
   public void testLooperReturnsEleven(){
-    assertEquals(11, pda.looper());
+    assertEquals(10, pda.looper());
   }
 
   @Test
   public void testCheckLoopReturnsFailedWhenLooperRun(){
-    assertEquals("looper failed", pda.checkLoop());
+    assertEquals("looper passed", pda.checkLoop());
   }
 
 }
